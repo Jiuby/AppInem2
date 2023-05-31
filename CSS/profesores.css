@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-image: url("https://inemjose.edu.co/colegio/newsite2021/wp-content/uploads/2021/11/00-1.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 50px;
+  text-align: center;
+}
+
+h1 {
+  color: #006837;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #006837;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #004a22;
+}
+
+.btn-arts {
+  background-color: #009688;
+}
+
+.btn-naturales {
+  background-color: #673ab7;
+}
+
+.btn-sociales {
+  background-color: #f44336;
+}
+
+.btn-fisica {
+  background-color: #ff9800;
+}
+
+.btn-comercial {
+  background-color: #795548;
+}
+
+.btn-espanol {
+  background-color: #2196f3;
+}
+
+.btn-matematicas {
+  background-color: #e91e63;
+}
+
+.btn-promocion {
+  background-color: #ff5722;
+}
+
+.btn-ingles {
+  background-color: #4caf50;
+}
+
+.btn-industrial {
+  background-color: #ffc107;
+}
+
+.btn-religiosa {
+  background-color: #ffeb3b;
+}
+
+.btn-additional {
+  background-color: #9c27b0;
+}
+
+@media only screen and (max-width: 600px) {
+ 
+}

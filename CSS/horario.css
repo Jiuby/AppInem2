@@ -1,0 +1,75 @@
+/* Estilos para horario.css */
+
+.container {
+  background-image: url("https://inemjose.edu.co/colegio/newsite2021/wp-content/uploads/2021/11/00-1.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 50px;
+  text-align: center;
+}
+
+h1 {
+  color: #006837;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.image-container {
+  position: relative;
+}
+
+.horario-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #006837;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #004a22;
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 480px) {
+  .content {
+    padding: 20px;
+  }
+
+  .horario-image {
+    max-height: 300px;
+  }
+}
+  
+
+
+
+
+  
+  

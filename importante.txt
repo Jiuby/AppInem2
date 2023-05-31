@@ -1,0 +1,6 @@
+base de datos
+https://www.mediafire.com/file/66ioinmr3cg5hfs/estudiante.sql/file
+
+forma de ejecutar
+http://localhost/AppInem
+

@@ -1,0 +1,51 @@
+.container {
+  background-image: url("https://inemjose.edu.co/colegio/newsite2021/wp-content/uploads/2021/11/00-1.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 50px;
+  text-align: center;
+}
+
+h1 {
+  color: #006837;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.map-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+img {
+  width: 80%;
+  height: auto;
+}
+
+.return-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #006837;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 180px;
+  text-align: center;
+}
+
+.return-button:hover {
+  background-color: #004a22;
+}
+
+
+  
+  

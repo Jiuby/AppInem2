@@ -1,0 +1,83 @@
+/* Estilos para clases.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+}
+
+.container {
+  background-image: url("https://inemjose.edu.co/colegio/newsite2021/wp-content/uploads/2021/11/00-1.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 50px;
+  text-align: center;
+  max-width: 90%;
+}
+
+h1 {
+  color: #006837;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #006837;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  font-size: 18px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #004a22;
+}
+
+.btn-back {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #004a22;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  font-size: 18px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-back:hover {
+  background-color: #002f15;
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  .content {
+    padding: 30px;
+  }
+}
+
+  
+  

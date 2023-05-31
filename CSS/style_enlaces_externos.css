@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://inemjose.edu.co/colegio/newsite2021/wp-content/uploads/2021/11/00-1.jpg");
+    background-size: cover;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #006837;
+    padding-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #006837;
+    border: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #004a22;
+  }
+  
+  .btn.akros {
+    background-color: #e52b2b;
+  }
+  
+  .btn.pagina-inem {
+    background-color: #005b9f;
+  }
+  
+  .btn.moodle {
+    background-color: #ff9900;
+  }
+  
+  /* Estilos para dispositivos móviles */
+  @media screen and (max-width: 480px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .button-container {
+      flex-direction: column;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+  
+    .btn {
+      margin: 10px auto;
+      padding: 12px 24px;
+      font-size: 16px;
+    }
+  }
+  
+  .return-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #006837;
+    border: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .return-button:hover {
+    background-color: #004a22;
+  }
+  

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inicio - AppInem</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="CSS/style_inicio.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+    }
+    
+    nav {
+      background-color: #006837;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    
+    li {
+      display: inline-block;
+      position: relative;
+      margin: 0 10px;
+    }
+    
+    a {
+      display: block;
+      padding: 10px 20px;
+      color: #ffffff;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      border-radius: 5px;
+    }
+    
+    a:hover {
+      background-color: #004a22;
+    }
+    
+    ul ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #006837;
+      border-radius: 5px;
+      padding: 10px;
+      z-index: 1;
+    }
+    
+    ul ul li {
+      display: block;
+      width: 100%;
+    }
+    
+    li:hover > ul {
+      display: block;
+    }
+    
+    h1 {
+      color: #006837;
+      text-align: center;
+      padding: 30px 0;
+    }
+    
+    .container {
+      background-image: url("https://inemjose.edu.co/colegio/newsite2021/wp-content/uploads/2021/11/00-1.jpg");
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .content {
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+      padding: 50px;
+      text-align: center;
+      max-width: 90%;
+    }
+    
+    @media (max-width: 768px) {
+      .content {
+        padding: 30px;
+        max-width: 100%;
+      }
+      
+      nav {
+        padding: 10px;
+      }
+      
+      ul {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      li {
+        margin: 10px;
+      }
+      
+      a {
+        padding: 10px 20px;
+        width: 120px;
+        margin: 5px;
+        font-size: 14px;
+      }
+      
+      ul ul {
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <h1>AppInem</h1>
+      <nav>
+        <ul>
+          <li><a href="Mapa.html">Mapa</a></li>
+          <li><a href="enlaces_externos.html">Enlaces externos</a></li>
+          <li><a href="#">Programas academicos</a>
+            <ul>
+              <li><a href="https://media.tenor.com/yTHoLS82szwAAAAM/pato-girando.gif">Programacion Semanal</a></li>
+              <li><a href="https://drive.google.com/drive/folders/1CYJWkONTvdh05xFYIGCvcb7rlas0awZY">Basica primaria y Preescolar</a></li>
+              <li><a href="Basica_secundaria.html">Basica secundaria</a></li>
+            </ul>
+          </li>
+          <li><a href="Profesores.html">Profesores</a></li>
+          <li><a href="#">Horarios</a>
+            <ul>
+              <li><a href="horario.html">Horario</a></li>
+              <li><a href="clases.html">Clases</a></li>
+            </ul>
+
+        </ul>
+      </nav>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
