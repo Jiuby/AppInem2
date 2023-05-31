@@ -4,3 +4,15 @@ https://www.mediafire.com/file/66ioinmr3cg5hfs/estudiante.sql/file
 forma de ejecutar
 http://localhost/AppInem
 
+perfil
+Estudiante
+
+Juan
+Gómez
+1234567890123456
+clave1
+
+JUAN
+VELEZ
+1
+1
